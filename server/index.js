@@ -21,6 +21,7 @@ database.connect();
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
+
 app.use(
 	cors({
 		origin:"https://study-coral.vercel.app",
